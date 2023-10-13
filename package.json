@@ -2,7 +2,7 @@
   "name": "training-1",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://sme-edgetech.github.io/anime_watch24/",
+  "homepage": "https://sme-naokiyano.github.io/watch_test/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
