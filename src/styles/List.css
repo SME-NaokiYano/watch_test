@@ -1,0 +1,128 @@
+.Super {
+  display: flex;
+  flex-direction: column;
+  height: 68.58vh;
+  height: 68.58dvh;
+  background-color: #343039;
+}
+
+.Lower {
+  display: flex;
+  position: fixed;
+  flex-direction: column;
+  height: 25.75vh;
+  height: 25.75dvh;
+  background-color: #343039;
+  align-self: stretch;
+  align-items: end;
+  flex-direction: row;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.List {
+  position: relative;
+  background-color: #343039;
+  height: 23vh;
+  height: 23dvh;
+  width: 54.1vw;
+  margin-bottom: 2.56vh;
+}
+
+.TapArea {
+  position: static;
+  text-align: center;
+  overflow-y: scroll;
+  height: 18.5vh;
+  height: 18.5dvh;
+  flex-direction: column;
+  margin: 0;
+  width: 54.16vw;
+  background-color: #433f47;
+  overflow: hidden;
+}
+
+.box {
+  position: static;
+  text-align: center;
+  overflow-y: scroll;
+  height: 18.5vh;
+  height: 18.5dvh;
+  flex-direction: column;
+  margin: 0;
+  width: 54.16vw;
+  border: 0;
+}
+.Tab {
+  max-height: 100%;
+  display: flex;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.Reset {
+  display: flex;
+  border: 0.19vh solid #ff2700;
+  border-radius: 8.33% 8.33% 8.33% 8.33% /5.55% 5.55% 5.55% 5.55%;
+  font-family: "Open Sans Regular";
+  font-weight: normal;
+  font-size: 3.2vh;
+  font-size: 3.2dvh;
+  color: #ffffff;
+  width: 41.6vw;
+  height: 23vh;
+  height: 23dvh;
+  margin-left: 1.38vw;
+  margin-right: 1.38vw;
+  margin-bottom: 2.56vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.TabHeader {
+  display: flex;
+  border-radius: 5.12% 5.12% 0 0/16.6% 16.6% 0 0;
+  height: 3.84vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.24vh;
+  font-family: "Open Sans SemiBold";
+  font-weight: 600;
+  width: 50%;
+  color: #ffffff;
+  border-bottom: 0;
+}
+
+.row {
+  display: flex;
+  font-size: 2.24vh;
+  list-style-position: inside;
+  margin: 0 4.16vw 0 4.16vw;
+  padding: 0;
+  text-align-last: justify;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.li {
+  height: 3.07vh;
+  height: 3.07dvh;
+  margin-bottom: 0.57vh;
+  text-align-last: justify;
+  padding: 0;
+  width: 45.83vw;
+  max-height: 100%;
+  font-family: "Open Sans Regular";
+  color: #ffffff;
+}
+.li span {
+  float: right;
+  font-family: "Open Sans Regular";
+  font-weight: normal;
+}
+
+li ::marker {
+  color: #000000;
+  margin-left: 0;
+}

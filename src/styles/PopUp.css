@@ -1,0 +1,118 @@
+.pop {
+  /*　画面全体を覆う設定　*/
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #3430394d;
+  backdrop-filter: blur(40px);
+
+  /*　画面の中央に要素を表示させる設定　*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inside {
+  display: flex;
+  z-index: 2;
+  width: 91.6vw;
+  height: 86.5vh;
+  background: #433f47;
+  position: fixed;
+  border-radius: 1.5%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.tab {
+  display: flex;
+  flex-direction: row;
+  max-height: 100%;
+  width: 100%;
+  align-items: center;
+}
+
+.table {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 74.03vh;
+}
+
+.data {
+  color: #9a93a3;
+  list-style-position: inside;
+  height: 100%;
+  padding-top: 1.28vh;
+  padding-bottom: 1.34vh;
+  padding-right: 2.08vw;
+  padding-left: 2.08vw;
+  margin-right: 5.55vw;
+  margin-left: 5.55vw;
+  line-height: 3.49vh;
+  border-bottom: 0.06vh solid #9a93a3;
+  text-align-last: justify;
+  text-align: justify;
+  width: 76.38vw;
+  font-family: "Open Sans Regular";
+}
+
+.data span {
+  position: sticky;
+  color: #9a93a3;
+  float: right;
+  padding: 0;
+  right: 0;
+}
+
+.header {
+  display: flex;
+  border-radius: 3.03% 3.03% 0 0/14.28% 14.28% 0 0;
+  height: 4.48vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.56vh;
+  font-weight: 600;
+  width: 50%;
+  flex-direction: row;
+  font-family: "Open Sans SemiBold";
+  color: #ffffff;
+}
+
+.ol {
+  display: flex;
+  flex-direction: column;
+  font-size: 2.56vh;
+  font-weight: normal;
+  max-height: 74.03vh;
+  padding: 0;
+  margin: 0;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  width: 100%;
+  font-family: "Open Sans";
+  padding-left: 0;
+  text-align: right;
+  float: right;
+  align-items: center;
+}
+
+.Lrecord {
+  display: inline-block;
+  padding-right: 0;
+  height: 100%;
+  text-align: right;
+  margin-left: auto;
+  color: #ffffff;
+}
+.Rrecord {
+  display: inline-block;
+  padding-left: 6.94vw;
+  text-align: right;
+  height: 100%;
+  margin-left: auto;
+  color: #ffffff;
+}

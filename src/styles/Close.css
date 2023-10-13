@@ -1,0 +1,29 @@
+.CloseArea {
+  position: sticky;
+  display: flex;
+  height: 7.69vh;
+  width: 91.66vw;
+  align-items: center;
+  justify-content: center;
+}
+.Close {
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  height: 6.41vh;
+  width: 86.1vw;
+  bottom: 1.28vh;
+  left: 2.77vw;
+  right: 2.77vw;
+  top: 0;
+  margin: 0;
+  font-size: 2.56vh;
+  font-family: "Open Sans Regular";
+  font-weight: normal;
+  border: 0.2vw solid #ffffff;
+  border-radius: 1.61% 1.61% 1.61% 1.61%/ 10% 10% 10% 10%;
+  background-color: #ffffff33;
+  color: #ffffff;
+}

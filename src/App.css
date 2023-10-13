@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+  user-select: none;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  overflow: hidden;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  height: 100vh;
+  height: 100dvh;
+  height: -webkit-fill-available;
+  -webkit-text-size-adjust: 100%;
+  font-family: "Open Sans light";
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #343039;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #343039;
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+}

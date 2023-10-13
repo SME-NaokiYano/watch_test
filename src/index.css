@@ -1,0 +1,42 @@
+@font-face {
+  font-family: "Open Sans Light";
+  src: url("/src/styles/fonts/OpenSans-Light.ttf");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Open Sans SemiBold";
+  src: url("/src/styles/fonts/OpenSans-SemiBold.ttf");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Open Sans Regular";
+  src: url("/src/styles/fonts/OpenSans-Regular.ttf");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Noto Sans JP Regular";
+  src: url("/src/styles/fonts/NotoSansJP-Regular.ttf");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Noto Sans JP Bold";
+  src: url("/src/styles/fonts/NotoSansJP-Bold.ttf");
+  font-display: swap;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Open Sans", "Noto Sans JP",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+  background-color: #343039;
+  appearance: none;
+  -webkit-appearance: none;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
